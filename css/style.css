@@ -4,7 +4,9 @@
   --font: #1a2c24;
   --yellow: #f8d95f;
 }
-
+body {
+  font-family: "Poppins";
+}
 .singkatan {
   color: var(--primary);
 }
@@ -14,10 +16,12 @@
 .btnmasuk {
   border-color: var(--primary);
   color: var(--primary);
+  border-radius: 32px;
 }
 .btndaftar {
   background-color: var(--primary);
   color: white;
+  border-radius: 32px;
 }
 .btnmasuk:hover {
   background-color: var(--primary);
