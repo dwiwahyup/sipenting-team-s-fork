@@ -13,10 +13,12 @@
 .btnmasuk {
   border-color: var(--primary);
   color: var(--primary);
+  border-radius: 32px;
 }
 .btndaftar {
   background-color: var(--primary);
   color: white;
+  border-radius: 32px;
 }
 .btnmasuk:hover {
   background-color: var(--primary);
