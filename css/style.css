@@ -1,3 +1,4 @@
+
 :root {
   --primary: #54bca4;
   --font: #1a2c24;
@@ -20,12 +21,12 @@ body {
 .btnmasuk {
   border-color: var(--primary);
   color: var(--primary);
-  border-radius:32px;
+  border-radius:32px
 }
 .btndaftar {
   background-color: var(--primary);
   color: white;
-  border-radius:32px;
+  border-radius:32px
 }
 .btnmasuk:hover {
   background-color: var(--primary);
@@ -63,4 +64,8 @@ footer {
 .footericons a {
   font-size: 2rem;
   color: white;
+}
+
+#cekstuntinghasil{
+  background-color:#EEFCF3;
 }
