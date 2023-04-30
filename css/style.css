@@ -1,13 +1,16 @@
 :root {
-  font-family: "Poppins";
   --primary: #54bca4;
   --font: #1a2c24;
   --yellow: #f8d95f;
 }
 body {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
 }
 //navbar
+.logonavbar{
+  width:"150"; 
+  height:"48":
+}
 .singkatan {
   color: var(--primary);
 }
@@ -17,12 +20,12 @@ body {
 .btnmasuk {
   border-color: var(--primary);
   color: var(--primary);
-  border-radius: 32px;
+  border-radius:32px;
 }
 .btndaftar {
   background-color: var(--primary);
   color: white;
-  border-radius: 32px;
+  border-radius:32px;
 }
 .btnmasuk:hover {
   background-color: var(--primary);
@@ -38,5 +41,26 @@ body {
   font-size: 1rem;
   background-color: var(--primary);
   text-decoration: none;
+  color: white;
+}
+.jstastitik {
+  color: var(--primary);
+}
+.labelartike {
+  color: var(--primary);
+}
+.linkaertikel {
+  color: var(--primary);
+}
+
+//cek stunting
+.main-title {
+  font-size: 44px;
+}
+footer {
+  background-color: #1b443b;
+}
+.footericons a {
+  font-size: 2rem;
   color: white;
 }
